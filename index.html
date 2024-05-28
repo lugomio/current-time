@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Current Time - lugom.io</title>
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/micromodal.css">
+    <link rel="stylesheet" href="./node_modules/material-icons/iconfont/material-icons.css">
+    <link rel="shortcut icon" href="https://lugom.io/assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+
+    <div id="app">
+        <main class="container">
+            <header>
+                <span id="current-timezone">America / São Paulo</span>
+                <button id="edit-timezone"><span class="material-icons-round">edit</span></button>
+            </header>
+            <section>
+                <h1 id="current-time">06:35:45</h1>
+            </section>
+            <footer>
+                <span id="full-date">Monday, 1 May, 2024</span>
+            </footer>
+        </main>
+    </div>
+
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+                <header class="modal__header">
+                    <h2 class="modal__title" id="modal-1-title">Change Timezone</h2>
+                    <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+                </header>
+                <main class="modal__content" id="modal-1-content">
+                    <form id="timezone-form">
+                        <select name="timezone" id="timezone">
+                        </select>
+                    </form>
+                </main>
+                <footer class="modal__footer">
+                    <button form="timezone-form" class="modal__btn modal__btn-primary">Apply</button>
+                    <button class="modal__btn" data-micromodal-close
+                        aria-label="Close this dialog window">Close</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script id="fixedNavLugomJs" src="https://lugom.io/assets/js/fixedNavLugom.js"></script>
+    <script src="./dist/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "current-time",
+  "version": "1.0.0",
+  "main": "/src/js/main.js",
+  "scripts": {
+    "start": "live-server",
+    "bundler": "webpack ./src/js/script.js --mode=development"
+  },
+  "keywords": [],
+  "author": "Lucas Gomes",
+  "license": "MIT",
+  "description": "A simple webpage that shows the current time of user.",
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "material-icons": "^1.13.12",
+    "micromodal": "^0.4.10"
+  },
+  "devDependencies": {
+    "live-server": "^1.1.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
