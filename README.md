@@ -1,13 +1,13 @@
 # Current Time
 ![banner](https://github.com/lugomio/current-time/blob/master/src/img/banner.png)
 
-## Descrição
+## Description
 
-O projeto Current Time tem como objetivo mostrar a data e a hora atual em diferentes fusos horários, proporcionando uma visualização intuitiva e prática dessas informações.
+The Current Time project aims to display the current date and time in different time zones, providing an intuitive and practical visualization of this information.
 
-Este projeto foi criado como uma prática para melhorar o uso do npm (Node Package Manager), além de aplicar conhecimentos em HTML, CSS, JavaScript e gerenciamento de pacotes.
+This project was created as practice to improve the use of npm (Node Package Manager), as well as to apply knowledge in HTML, CSS, JavaScript, and package management.
 
-## Tecnologias
+## Technologies
 
 - HTML
 - CSS
@@ -16,35 +16,35 @@ Este projeto foi criado como uma prática para melhorar o uso do npm (Node Packa
 - Fetch API
 - Promises
 
-## Instruções de Instalação
+## Installation Instructions
 
-### Pré-requisitos
-- Node.js instalado
-- NPM instalado
+### Prerequisites
+- Node.js installed
+- NPM installed
 
-### Etapas
-1. Clone o repositório:
+### Steps
+1. Clone the repository:
    ```bash
-   git clone https://github.com/seu-usuario/current-time.git
+   git clone https://github.com/your-username/current-time.git
    cd current-time
    ```
-2. Instale as dependências:
+2. Install the dependencies:
    ```bash
    npm install
    ```
-3. Para fazer o bundling dos scripts:
+3. To bundle the scripts:
    ```bash
    npm run bundler
    ```
-4. Inicie o servidor:
+4. Start the server:
    ```bash
    npm start
    ```
 
-## Como Usar
-1. Após seguir as etapas de instalação, o live-server iniciará automaticamente.
-2. Abra seu navegador e acesse `http://127.0.0.1:8080` (ou o endereço exibido no terminal) para ver a aplicação em funcionamento.
-3. A interface exibirá a data e hora atual, permitindo que você altere o fuso horário.
+## How to Use
+1. After following the installation steps, the live server will start automatically.
+2. Open your browser and go to `http://127.0.0.1:8080` (or the address displayed in the terminal) to see the application in action.
+3. The interface will display the current date and time, allowing you to change the time zone.
 
-## Licença
-Esse projeto é licenciado sob a [MIT License](LICENSE.md).
+## License
+This project is licensed under the [MIT License](LICENSE.md).
